@@ -8,12 +8,12 @@ import (
 	http "github.com/bogdanfinn/fhttp"
 	"github.com/gin-gonic/gin"
 
-	"github.com/linweiyuan/go-chatgpt-api/api"
-	"github.com/linweiyuan/go-chatgpt-api/api/chatgpt"
-	"github.com/linweiyuan/go-chatgpt-api/api/imitate"
-	"github.com/linweiyuan/go-chatgpt-api/api/platform"
-	_ "github.com/linweiyuan/go-chatgpt-api/env"
-	"github.com/linweiyuan/go-chatgpt-api/middleware"
+	"github.com/fxybiao/go-chatgpt-api/api"
+	"github.com/fxybiao/go-chatgpt-api/api/chatgpt"
+	"github.com/fxybiao/go-chatgpt-api/api/imitate"
+	"github.com/fxybiao/go-chatgpt-api/api/platform"
+	_ "github.com/fxybiao/go-chatgpt-api/env"
+	"github.com/fxybiao/go-chatgpt-api/middleware"
 )
 
 func init() {
